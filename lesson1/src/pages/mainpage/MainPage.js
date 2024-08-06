@@ -6,6 +6,7 @@ import User from "../../components/user/User";
 import Course from "../../components/course/Course";
 import Month from "../../components/month/Month";
 
+
 const MainPage = () => {
     return (
         <div>
@@ -19,6 +20,7 @@ const MainPage = () => {
             <User name={'Kanykei'} age={'20'}/>
             <Course title={'JS'} language={'english'}/>
             <Month date={'1'}/>
+            <Input pleceholder={'Введите текст'}/>
         </div>
     );
 };
